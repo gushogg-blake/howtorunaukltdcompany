@@ -1,0 +1,20 @@
+How to run a UK Ltd company
+===
+
+The first thing to know about setting up and running a UK limited company is that they come in all shapes and sizes!  There's no one-size-fits-all procedure, but once you've got your head around a few basic concepts, an--
+
+Just kidding, here's the prodecure:
+
+- Register your company with a company formation service that offers a registered office address service, or directly through Companies House if you have an office address already or don't mind having your home address on the public record.  The following steps are the same regardless of which option you choose.
+
+- Make a note of the date of incorporation (hereafter **$incorporationDate**).
+
+- Create a calendar entry called "File confirmation statement for \[name of company (**$companyName**)\]", recurring one month before **$incorporationDate** each year.
+
+- Create a spreadsheet called "tax" with the following columns: **Date**, **Details**, **Incomings**, **Outgoings**, **Profit/loss**.  Insert a row at the top where **Details** is "Totals", **Incomings** is `=SUM(C3:C99950)`, **Outgoings** is `=SUM(D3:D99950)`, and **Profit/loss** is `=C2-D2`.  Format the money cells appropriately as currency.  Every time you make or spend money, add a row to the spreadsheet with a detailed description.  Leave the **Outgoings** blank for money made, and vice-versa.  The rows should match the transaction history of your bank account, except for money you put in the account just so that the business has money to work with (see below).
+
+- Create a spreadsheet called "starting capital" to record money you put into the business.  The columns are **Date**, **Description**, and **Amount**.  Add a row each time you send the business money with the description "Starting capital from [wherever it's from, e.g. savings]".  This money doesn't count as taxable income.
+
+- Create a business bank account.
+
+- Create a calendar entry called "File tax return for **$companyName**", 
